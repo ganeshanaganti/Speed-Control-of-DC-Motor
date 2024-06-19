@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Motor Speed Control Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>DC Motor Speed Control Dashboard</h1>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Real-Time Motor Speed</h2>
+            <div id="speed-display" class="speed-display">0%</div>
+            <div class="chart-container">
+                <canvas id="speedChart" width="400" height="200"></canvas>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Motor Status</h2>
+            <div id="status-display" class="status-display">Fetching...</div>
+            <div class="chart-container">
+                <canvas id="statusChart" width="400" height="200"></canvas>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
+</body>
+</html>
