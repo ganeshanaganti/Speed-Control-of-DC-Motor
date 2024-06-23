@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusDisplay = document.getElementById('status-display');
     const speedCtx = document.getElementById('speedChart').getContext('2d');
     const statusCtx = document.getElementById('statusChart').getContext('2d');
-    const THINGSPEAK_API_KEY = 'PZWVG5E7AWFWPIHN';
+    const THINGSPEAK_API_KEY = 'A7O2DG80KQKADQWC';
     const THINGSPEAK_CHANNEL_ID = '2580401';
     let speedChart, statusChart;
     let speedData = [];
