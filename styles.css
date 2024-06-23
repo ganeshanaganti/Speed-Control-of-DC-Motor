@@ -14,10 +14,13 @@ header {
 }
 
 main {
+    padding: 2rem;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem;
 }
 
 .card {
@@ -30,13 +33,13 @@ main {
     text-align: center;
 }
 
-.speed-display, .status-display {
+.data-display {
     font-size: 2rem;
     margin-top: 1rem;
 }
 
 .chart-container {
-    margin-top: 2rem; /* Adjust the space between the display and chart as needed */
+    margin-top: 2rem;
 }
 
 footer {
