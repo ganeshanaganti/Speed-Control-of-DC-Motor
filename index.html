@@ -13,23 +13,41 @@
         <h1>DC Motor Speed Control Dashboard</h1>
     </header>
     <main>
-        <section class="card">
-            <h2>Real-Time Motor Speed</h2>
-            <div id="speed-display" class="speed-display">0%</div>
-            <div class="chart-container">
-                <canvas id="speedChart" width="400" height="200"></canvas>
-            </div>
-        </section>
-        <section class="card">
-            <h2>Motor Status</h2>
-            <div id="status-display" class="status-display">Fetching...</div>
-            <div class="chart-container">
-                <canvas id="statusChart" width="400" height="200"></canvas>
-            </div>
-        </section>
+        <div class="row">
+            <section class="card">
+                <h2>Duty Cycle</h2>
+                <div id="duty-cycle-display" class="data-display">0%</div>
+                <div class="chart-container">
+                    <canvas id="dutyCycleChart" width="400" height="200"></canvas>
+                </div>
+            </section>
+            <section class="card">
+                <h2>Voltage</h2>
+                <div id="voltage-display" class="data-display">0V</div>
+                <div class="chart-container">
+                    <canvas id="voltageChart" width="400" height="200"></canvas>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <section class="card">
+                <h2>Speed</h2>
+                <div id="speed-display" class="data-display">0 RPM</div>
+                <div class="chart-container">
+                    <canvas id="speedChart" width="400" height="200"></canvas>
+                </div>
+            </section>
+            <section class="card">
+                <h2>Motor State</h2>
+                <div id="motor-state-display" class="data-display">Stopped</div>
+                <div class="chart-container">
+                    <canvas id="motorStateChart" width="400" height="200"></canvas>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>Created by [Your Name]</p>
+        <p></p>
     </footer>
 </body>
 </html>
